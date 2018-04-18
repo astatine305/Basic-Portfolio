@@ -2,13 +2,42 @@
 header {
     background-color: white;
     border-bottom: 2px solid #cccccc;
-    margin: 0;
+    margin-bottom:  20px;
+    width: 98%;
+    position: relative;
+    top: 20px;  
+    left: 15px;
 }
 
 /* header class format */
 .header {
     width:960px;
     margin: 0 auto;
+    top: 20px;
+}
+
+/* section header text size */
+.headerText{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+/* format for logo class */
+.logo {
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* format for navlog class */
+.navlogo {
+    color: #777777;
+    float: right;
+    padding: 20px 0px 20px 20px;
 }
 
 /* body class format */
@@ -17,6 +46,20 @@ header {
     background-color: white;
     border: 1px solid #cccccc;
     margin: 0 auto;
+    position: relative;
+    min-height: calc(100vh - 220px);
+}
+
+/* body section format */
+body {
+    color: #777777;
+    font-family: "Arial", "Hevlvetica Neue", Helvetica, sans-serif;
+    background-image: url("../images/greySandbag.png")
+}
+
+/* body text size */
+.bodyText{
+    font-size: 17px;
 }
 
 /* footer section format */
@@ -26,13 +69,9 @@ footer {
     color: white;
     padding-top: 20px;
     border-top: 5px solid #4aaaa5;
-}
-
-/* body section format */
-body {
-    color: #777777;
-    font-family: "Arial", "Hevlvetica Neue", Helvetica, sans-serif;
-    background-image: url("../images/greySandbag.png")
+    position: relative;
+    margin-top: 20px;
+   
 }
 
 /* format for h sections */
@@ -47,22 +86,7 @@ p {
     color: #777777;
     font-family: "Arial", "Hevlvetica Neue", Helvetica, sans-serif;
     padding: 0px 20px 0px 20px;
-}
-
-/* format for logo class */
-.logo {
-    background-color: #4aaaa5;
-    color: white;
-    display: inline-block;
-    margin: 0 auto;
-}
-
-/* format for navlog class */
-.navlogo {
-    color: #777777;
-    float: right;
-    padding: 20px 0px 20px 20px;
-
+    margin: 0px 0px 15px 0px;
 }
 
 /* format to position li to be inline */ 
@@ -100,125 +124,6 @@ img {
     float: left;
     width: 100px;
     height: 100px;
-    padding-right: 20px;  
-}
-
-/* format for contact section*/
-.contact{
-    padding: 20px;
-}
-
-/* format for portfolio section*/
-.portfolio {
-    padding: 20px;
-    display: inline-block;
-   
-}
-
-/* Format inputs with type = 'text' */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px color #ccc;
-    box-sizing: border-box;
-    resize: vertical; /* allow user to resize textarea vertically */
-    margin-top: 6px;
-    margin-bottom: 16px;
-}
-
-/* Format Submit button */
-input[type="submit"] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 12px;
-    border: none;
-    
-}
-
-/* hover color for submit button */
-input[type="submit"]:hover {
-    background-color: orangered;
-}
-
-.project1 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/image.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.project2 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/placeHolder.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.project3 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/image.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.project4 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/placeHolder.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.project5 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/image.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.project6 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/placeHolder.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.text {
-    background-color: #4aaaa5;
-    color: white;
-    margin: 0 auto;
-    text-align: center;
-
-}
-.text:hover{
-    background-color: orangered;
+    padding-right: 20px; 
+    padding-bottom: 20px; 
 }

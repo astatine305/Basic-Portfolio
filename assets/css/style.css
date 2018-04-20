@@ -3,52 +3,62 @@ header {
     background-color: white;
     border-bottom: 2px solid #cccccc;
     margin-bottom:  20px;
-    width: 98%;
+    width: 100%;
     position: relative;
     top: 20px;  
-    left: 15px;
 }
 
 /* header class format */
 .header {
-    width:960px;
+    width: 90%;
     margin: 0 auto;
     top: 20px;
+    padding-left: 2%;
 }
 
+/* main content format */
+.mainContent {
+    width: 70%;
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 50px auto;
+    min-height: 500px;
+    align-items: center;
+}
 /* section header text size */
-.headerText{
+.mainContent h2 {
     font-size: 24px;
     font-weight: bold;
     padding: 20px 20px;
 }
 
+/* body text size */
+.mainContent p {
+    font-size: 17px;
+}
+
+
 /* format for logo class */
-.logo {
+.header h1 {
     background-color: #4aaaa5;
     color: white;
     display: inline-block;
-    margin: 0 auto;
+    margin-left: 10%;
     font-size: 32px;
     font-weight: bold;
 }
 
 /* format for navlog class */
-.navlogo {
+.navBar {
     color: #777777;
     float: right;
-    padding: 20px 0px 20px 20px;
+    margin-right: 12%;
+    padding-top: 25px;
+    padding-right: 10px;
+    list-style: none;
+    clear:both;
 }
 
-/* body class format */
-.body {
-    width: 960px;
-    background-color: white;
-    border: 1px solid #cccccc;
-    margin: 0 auto;
-    position: relative;
-    min-height: calc(100vh - 220px);
-}
 
 /* body section format */
 body {
@@ -57,20 +67,15 @@ body {
     background-image: url("../images/greySandbag.png")
 }
 
-/* body text size */
-.bodyText{
-    font-size: 17px;
-}
 
 /* footer section format */
 footer {
     background-color: #666666;
     text-align: center;
     color: white;
-    padding-top: 20px;
+    padding: 10px 0;
     border-top: 5px solid #4aaaa5;
     position: relative;
-    margin-top: 20px;
    
 }
 
@@ -90,25 +95,25 @@ p {
 }
 
 /* format to position li to be inline */ 
-li {
+.navBar li {
     display: inline;
     padding-left: 15px;
 }
 
-/* link color */
-a:link {
+/* link color */ 
+.navBar a {
     color: #777777;
     text-decoration: none;
 
 }
 
 /* link hover color */
-a:hover{
+.navBar a:hover{
     color: orangered;
 }
 
 /* color moment link is clicked */
-a:active{
+.navBar a:active{
     color:orangered;
 }
 
@@ -120,10 +125,22 @@ hr {
 }
 
 /* image format */
-img {
+.mainContent img {
     float: left;
     width: 100px;
-    height: 100px;
+    height: 115px;
     padding-right: 20px; 
     padding-bottom: 20px; 
+}
+/*
+@media(max-width: 500px){
+    .portfolio{
+        width: 100%;
+        float: none;
+    }
+
+    .navBar{
+        width: 100%;
+        float: none;
+    }
 }

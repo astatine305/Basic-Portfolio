@@ -1,91 +1,25 @@
-/* format for portfolio section*/
+/* format for portfolio section */
 .portfolio {
-    padding: 20px;
     display: inline-block;
-   
-}
-
-.project1 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
+    width: 30%;
+    border: 1px solid orange;
+    margin: 12px;
+    height: 150px;
     background-image: url(../images/image.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+
 }
 
-.project2 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/placeHolder.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.project3 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/image.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.project4 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/placeHolder.jpg);
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.project5 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/image.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.project6 {
-    display: inline-block;
-    width: 290px;
-    Height: 150px;
-    border: 2px solid #ccc;
-    background-image: url(../images/placeHolder.jpg);
-    background-repeat: no-repeat;
-    background-size: 290px 150px;
-    margin-right: 9px;
-    margin-bottom: 15px;
+/* project banner hover */
+.portfolio h3:hover{
+    background-color: orangered;
 }
 
 /* project's div background and text */
-.text {
+.mainContent h3 {
     background-color: #4aaaa5;
     color: white;
     margin: 0 auto;
     text-align: center;
-
-
-/* hover color over project */
-}
-.text:hover{
-    background-color: orangered;
 }
